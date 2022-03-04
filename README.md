@@ -1,5 +1,6 @@
 # SeSAC-SLP
-[![SLP 사용 영상](https://img.youtube.com/vi/diW0eipo-q8/sddefault.jpg)](https://youtu.be/diW0eipo-q8)
+[![SLP 사용 영상](https://img.youtube.com/vi/diW0eipo-q8/sddefault.jpg)](https://youtu.be/diW0eipo-q8)  
+*클릭하면 유튜브 동영상으로 재생됩니다.*
 
 
 ## 프로젝트 개요
