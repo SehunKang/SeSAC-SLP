@@ -72,6 +72,7 @@ StoreKit을 사용한 인앱 구매 화면이다. 앱스토어뿐 아니라 서�
 <img width="30%" src="https://user-images.githubusercontent.com/79244795/156556673-7c86e228-e6a3-4f9f-9f94-ebc9ea952e7b.PNG">
 
 채팅이 시작되면 상대와의 대화를 Realm을 통해 불러오고 DB에 저장된 마지막 대화 이후의 대화를 서버로부터 받아온다. Socket.IO 라이브러리를 사용하여 실시간 소켓통신으로 채팅이 진행되며 모든 주고받는 채팅은 DB에 저장 된 후 뷰로 불러온다. Realm의 Notification token을 사용하여 구현했다.  
+우측 상단의 ellipsis 버튼을 클릭했을 때 카카오톡의 새로운 채팅 버튼을 클릭할 때 처럼 만들고 싶었다. 마땅한 라이브러리나 레퍼런스가 없어 무식하게 접근했다. 버튼목록의 y값에 CGAffineTransform을 통해 -200을 줘서 화면 위로 보내놓고 ellipsis 버튼을 클릭하면 origin으로 복귀 시키는 식으로 구현했다.
 
 
 ## 회고
