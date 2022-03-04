@@ -25,7 +25,7 @@ MVVM, RxSwift, RxCocoa, Moya, Realm, StoreKit, MapKit, FirebaseAuth, FirebaseClo
 <img width="30%" src="https://user-images.githubusercontent.com/79244795/156556596-f4ebf9ad-87b8-4895-b0e0-aee6293300ca.PNG"> |
 <img width="30%" src="https://user-images.githubusercontent.com/79244795/156556593-f497ef77-9c69-4ffa-86b1-4fb8695add92.PNG">
 
-회원가입의 경우 모든 뷰를 MVVM 아키텍쳐와 RxSwift의 Input/Output 구조를 사용하여 구현하였다. 모든 텍스트 필드와 버튼은 커스텀을 클래스를 만들어 디자인에 맞게 모듈화를 했다.  
+회원가입의 경우 모든 뷰를 MVVM 아키텍쳐와 RxSwift의 Input/Output 구조를 사용하여 구현하였다. 모든 텍스트 필드와 버튼은 커스텀 클래스를 만들어 디자인에 맞게 모듈화를 했다.  
 텍스트 필드는 editing의 여부와 user interaction의 success, error에 따라 설정이 바뀔 수 있게하였다. 커스텀 버튼의 경우 UIbutton configuration과 UIControl.State의 값들을 각각 설정하여 커스텀 클래스를 구현했다.
 전화번호, 이메일의 경우 String struct의 Extension을 통해 정규표현식을 활용하여 유효성 검사를 하였다.  
 성별 선택화면의 경우 성별을 선택하지 않아도 회원가입 진행이 되는데 이는 남/여 성별만 선택 가능할 경우 앱스토어 심사에서 리젝되는 이슈가 있기 떄문이다. 그러나 추후 성별 선택 없이 친구찾기를 진행 할 경우 회원정보 변경을 필요로 하게 하는 식으로 로직이 설정된다. 해당 프로젝트가 Service Level Project로 명명되는 납득할만한 로직중 하나라고 생각한다.
