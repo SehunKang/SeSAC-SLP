@@ -8,6 +8,7 @@
 import Foundation
 import RxSwift
 import FirebaseAuth
+import Firebase
 import RxCocoa
 import Moya
 

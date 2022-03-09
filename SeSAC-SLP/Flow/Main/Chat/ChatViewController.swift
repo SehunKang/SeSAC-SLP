@@ -182,7 +182,7 @@ class ChatViewController: UIViewController {
             
             let textFieldHeight = 77.0
             let safeAreaHeight = self.view.frame.maxY - containerView.frame.maxY
-            let keyboardAndTextFieldHeight = keyboardSize.height + textFieldHeight + safeAreaHeight - 16
+//            let keyboardAndTextFieldHeight = keyboardSize.height + textFieldHeight + safeAreaHeight - 16
             
             cellY = cellY > collectionView.frame.maxY ? collectionView.frame.maxY : cellY
                         
@@ -190,9 +190,10 @@ class ChatViewController: UIViewController {
                 self.containerView.transform = CGAffineTransform(translationX: 0, y: -(keyboardSize.height - (safeAreaHeight - 16)))
                 self.view.bringSubviewToFront(self.containerView)
             } else {
-                self.collectionView.transform = CGAffineTransform(translationX: 0, y: -(cellY - (self.view.frame.maxY - (keyboardAndTextFieldHeight + 16))))
-                self.containerView.transform = CGAffineTransform(translationX: 0, y: -(keyboardSize.height - (safeAreaHeight - 16)))
+//                self.collectionView.transform = CGAffineTransform(translationX: 0, y: -(cellY - (self.view.frame.maxY - (keyboardAndTextFieldHeight + 16))))
+//                self.containerView.transform = CGAffineTransform(translationX: 0, y: -(keyboardSize.height - (safeAreaHeight - 16)))
 //                self.view.bringSubviewToFront(self.containerView)
+                self.view.transform = CGAffineTransform(translationX: 0, y: -keyboardSize.height)
 
             }
             
@@ -201,7 +202,8 @@ class ChatViewController: UIViewController {
     
     @objc private func keyboardDown(_ notification: NSNotification) {
         self.containerView.transform = .identity
-        self.collectionView.transform = .identity
+//        self.collectionView.transform = .identity
+        self.view.transform = .identity
 
     }
     

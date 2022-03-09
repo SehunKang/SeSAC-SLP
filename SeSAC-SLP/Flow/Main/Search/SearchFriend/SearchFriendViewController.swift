@@ -114,6 +114,7 @@ class SearchFriendViewController: TabmanViewController {
         
         let rightBarButtonItem = UIBarButtonItem(title: "찾기중단", style: .plain, target: self, action: #selector(stopFind))
         self.navigationItem.rightBarButtonItem = rightBarButtonItem
+        self.navigationController?.navigationBar.tintColor = CustomColor.SLPBlack.color
 
     }
     

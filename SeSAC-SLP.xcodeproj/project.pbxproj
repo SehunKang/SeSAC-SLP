@@ -20,7 +20,6 @@
 		2E3305ED27BBB92C00A1AECD /* Moya_ChatAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3305EC27BBB92B00A1AECD /* Moya_ChatAPI.swift */; };
 		2E35519227B2B3B2008912C9 /* Tabman in Frameworks */ = {isa = PBXBuildFile; productRef = 2E35519127B2B3B2008912C9 /* Tabman */; };
 		2E35DBCC279D585200EFD884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E35DBCB279D585200EFD884 /* Main.storyboard */; };
-		2E35DBD0279D632500EFD884 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E35DBCF279D632500EFD884 /* NetworkCheck.swift */; };
 		2E38F6E127BE83E7005263B5 /* ChatCellReceived.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38F6E027BE83E6005263B5 /* ChatCellReceived.swift */; };
 		2E38F6E627BFB172005263B5 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E38F6E427BFB172005263B5 /* ReportViewController.swift */; };
 		2E394F6327B54F6D0009F98B /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E394F6227B54F6D0009F98B /* BadgeView.swift */; };
@@ -28,7 +27,6 @@
 		2E6BB15527B3F7CE0095ADE4 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6BB15427B3F7CE0095ADE4 /* CardCell.swift */; };
 		2E6DC70827AE3C6D00A049CC /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC70727AE3C6D00A049CC /* CustomAnnotation.swift */; };
 		2E6DC70A27AE97D500A049CC /* Moya_QueueAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC70927AE97D500A049CC /* Moya_QueueAPI.swift */; };
-		2E6DC70C27AE9CD900A049CC /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC70B27AE9CD900A049CC /* Float+Extension.swift */; };
 		2E6DC70F27AFBBD300A049CC /* SearchHobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC70E27AFBBD300A049CC /* SearchHobbyViewController.swift */; };
 		2E6DC71127AFF73600A049CC /* MyHobbyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6DC71027AFF73600A049CC /* MyHobbyCell.swift */; };
 		2E6F22A127B6BBD100205B23 /* DefaultPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F22A027B6BBD100205B23 /* DefaultPopUpView.swift */; };
@@ -66,7 +64,6 @@
 		2EBAEF70279539EF00C2A089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EBAEF6E279539EF00C2A089 /* LaunchScreen.storyboard */; };
 		2EBAEF7E2795468100C2A089 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2EBAEF7D2795468100C2A089 /* SnapKit */; };
 		2EBAEF812795859800C2A089 /* PhoneAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBAEF802795859800C2A089 /* PhoneAuthViewModel.swift */; };
-		2EBAEF83279585B700C2A089 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBAEF82279585B700C2A089 /* Protocol.swift */; };
 		2EBAEF8A2796854400C2A089 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EBAEF892796854400C2A089 /* GoogleService-Info.plist */; };
 		2EBAEF91279692CA00C2A089 /* CustomFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBAEF90279692CA00C2A089 /* CustomFont.swift */; };
 		2EC4622627BBEC31009D94E6 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 2EC4622527BBEC31009D94E6 /* RxCocoa */; };
@@ -94,7 +91,6 @@
 		2EDF693727982464005E3F93 /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2EDF693527982464005E3F93 /* NotoSansKR-Medium.otf */; };
 		2EDF693827982464005E3F93 /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2EDF693627982464005E3F93 /* NotoSansKR-Regular.otf */; };
 		2EDF693B27982800005E3F93 /* PhoneAuthCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF693A27982800005E3F93 /* PhoneAuthCheckViewController.swift */; };
-		2EDF693D27982A3C005E3F93 /* EasyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF693C27982A3C005E3F93 /* EasyAlert.swift */; };
 		2EE2050827CA45CF003D89E9 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2050727CA45CF003D89E9 /* OnboardingViewController.swift */; };
 		2EE2050A27CA5367003D89E9 /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE2050927CA5367003D89E9 /* OnboardingCollectionViewCell.swift */; };
 		517AFB0445C61090B735D0BB /* Pods_SeSAC_SLP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E4506A78BC002D703EC9713 /* Pods_SeSAC_SLP.framework */; };
@@ -114,7 +110,6 @@
 		2E3305EA27BBB8F100A1AECD /* APIServiceForChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceForChat.swift; sourceTree = "<group>"; };
 		2E3305EC27BBB92B00A1AECD /* Moya_ChatAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moya_ChatAPI.swift; sourceTree = "<group>"; };
 		2E35DBCB279D585200EFD884 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		2E35DBCF279D632500EFD884 /* NetworkCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
 		2E38F6E027BE83E6005263B5 /* ChatCellReceived.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCellReceived.swift; sourceTree = "<group>"; };
 		2E38F6E427BFB172005263B5 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		2E394F6227B54F6D0009F98B /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
@@ -122,7 +117,6 @@
 		2E6BB15427B3F7CE0095ADE4 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 		2E6DC70727AE3C6D00A049CC /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		2E6DC70927AE97D500A049CC /* Moya_QueueAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moya_QueueAPI.swift; sourceTree = "<group>"; };
-		2E6DC70B27AE9CD900A049CC /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
 		2E6DC70E27AFBBD300A049CC /* SearchHobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHobbyViewController.swift; sourceTree = "<group>"; };
 		2E6DC71027AFF73600A049CC /* MyHobbyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHobbyCell.swift; sourceTree = "<group>"; };
 		2E6F22A027B6BBD100205B23 /* DefaultPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPopUpView.swift; sourceTree = "<group>"; };
@@ -157,7 +151,6 @@
 		2EBAEF71279539EF00C2A089 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EBAEF7727953A5B00C2A089 /* SeSAC-SLP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "SeSAC-SLP.entitlements"; sourceTree = "<group>"; };
 		2EBAEF802795859800C2A089 /* PhoneAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthViewModel.swift; sourceTree = "<group>"; };
-		2EBAEF82279585B700C2A089 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		2EBAEF892796854400C2A089 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2EBAEF90279692CA00C2A089 /* CustomFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFont.swift; sourceTree = "<group>"; };
 		2EC4621D27BBE953009D94E6 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,7 +173,6 @@
 		2EDF693527982464005E3F93 /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Medium.otf"; path = "Noto_Sans_KR/NotoSansKR-Medium.otf"; sourceTree = SOURCE_ROOT; };
 		2EDF693627982464005E3F93 /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSansKR-Regular.otf"; path = "Noto_Sans_KR/NotoSansKR-Regular.otf"; sourceTree = SOURCE_ROOT; };
 		2EDF693A27982800005E3F93 /* PhoneAuthCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthCheckViewController.swift; sourceTree = "<group>"; };
-		2EDF693C27982A3C005E3F93 /* EasyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyAlert.swift; sourceTree = "<group>"; };
 		2EE2050727CA45CF003D89E9 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		2EE2050927CA5367003D89E9 /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		6E4506A78BC002D703EC9713 /* Pods_SeSAC_SLP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeSAC_SLP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,13 +220,6 @@
 			path = Chat;
 			sourceTree = "<group>";
 		};
-		2E35DBD1279E78C400EFD884 /* Card */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Card;
-			sourceTree = "<group>";
-		};
 		2E6DC70D27AFBBB400A049CC /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -249,7 +234,6 @@
 			children = (
 				2E92DFB827993E7C0020567B /* UIViewController+Extension.swift */,
 				2E92DFCE279B0BF20020567B /* String+Extension.swift */,
-				2E6DC70B27AE9CD900A049CC /* Float+Extension.swift */,
 				2E308E5927AB9E6A00AD08CC /* UILabel+Extension.swift */,
 				2ED1211F27AD1AA100A3C8D5 /* UIView+Extension.swift */,
 				2E3305E127BB681300A1AECD /* Date+Extension.swift */,
@@ -351,9 +335,6 @@
 				2EA963D62796EF7300DA7C2E /* CustomColor.swift */,
 				2EBAEF90279692CA00C2A089 /* CustomFont.swift */,
 				2EA963DF2797A1F500DA7C2E /* CustomTextField.swift */,
-				2E35DBCF279D632500EFD884 /* NetworkCheck.swift */,
-				2EDF693C27982A3C005E3F93 /* EasyAlert.swift */,
-				2E35DBD1279E78C400EFD884 /* Card */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -403,7 +384,6 @@
 				2ED54EF1279D3C4E001AE07C /* Flow */,
 				2EA963DC2796FAF600DA7C2E /* Custom */,
 				2E92DFB727993E410020567B /* Extension */,
-				2EBAEF82279585B700C2A089 /* Protocol.swift */,
 				2E92DFBA279971E80020567B /* UserDefaultManager.swift */,
 				2E92DFC2279999DC0020567B /* Moya_UserAPI.swift */,
 				2ED409E227C4F7C200EB1BDA /* Moya_ShopAPI.swift */,
@@ -463,10 +443,10 @@
 		2ED54EF1279D3C4E001AE07C /* Flow */ = {
 			isa = PBXGroup;
 			children = (
-				2ED409D727C4B3BB00EB1BDA /* Shop */,
-				2EA6656C27AA941E00FD47B0 /* MyInfo */,
 				2EA963E127981C0200DA7C2E /* Start */,
 				2ED54EF6279D5784001AE07C /* Main */,
+				2ED409D727C4B3BB00EB1BDA /* Shop */,
+				2EA6656C27AA941E00FD47B0 /* MyInfo */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -474,12 +454,12 @@
 		2ED54EF6279D5784001AE07C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				2E2D17B127B8A45600ECBFD7 /* Chat */,
 				2E35DBCB279D585200EFD884 /* Main.storyboard */,
 				2E394F6627B647310009F98B /* APIServiceForSearch.swift */,
 				2ED029AD27B7BBB000707319 /* APIModelForSearch.swift */,
 				2ED1211A27ACF9E000A3C8D5 /* Home */,
 				2E6DC70D27AFBBB400A049CC /* Search */,
+				2E2D17B127B8A45600ECBFD7 /* Chat */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -668,7 +648,6 @@
 				2ED409DF27C4B5AE00EB1BDA /* ForegroundShopViewController.swift in Sources */,
 				2E308E5A27AB9E6B00AD08CC /* UILabel+Extension.swift in Sources */,
 				2E97A1CA27B1540900A0A057 /* SearchFriendViewController.swift in Sources */,
-				2EDF693D27982A3C005E3F93 /* EasyAlert.swift in Sources */,
 				2EA6657627AA99AD00FD47B0 /* MyInfoModel.swift in Sources */,
 				2E38F6E127BE83E7005263B5 /* ChatCellReceived.swift in Sources */,
 				2E92DFD8279BC5F90020567B /* BirthViewController.swift in Sources */,
@@ -704,7 +683,6 @@
 				2E6DC70827AE3C6D00A049CC /* CustomAnnotation.swift in Sources */,
 				2E92DFC527999D210020567B /* UserDataModel.swift in Sources */,
 				2E6DC70A27AE97D500A049CC /* Moya_QueueAPI.swift in Sources */,
-				2E35DBD0279D632500EFD884 /* NetworkCheck.swift in Sources */,
 				2E2D17B527B8D34B00ECBFD7 /* ChatCellSend.swift in Sources */,
 				2E3305E427BB6D1100A1AECD /* RealmService.swift in Sources */,
 				2E97A1CE27B2997D00A0A057 /* RequestReceivedViewController.swift in Sources */,
@@ -717,13 +695,11 @@
 				2E6DC71127AFF73600A049CC /* MyHobbyCell.swift in Sources */,
 				2E6BB15527B3F7CE0095ADE4 /* CardCell.swift in Sources */,
 				2E97A1D027B2999900A0A057 /* AroundViewController.swift in Sources */,
-				2EBAEF83279585B700C2A089 /* Protocol.swift in Sources */,
 				2E394F6727B647320009F98B /* APIServiceForSearch.swift in Sources */,
 				2ED029AE27B7BBB000707319 /* APIModelForSearch.swift in Sources */,
 				2E6DC70F27AFBBD300A049CC /* SearchHobbyViewController.swift in Sources */,
 				2ED409E527C52F3D00EB1BDA /* ForegroundCollectionViewCell.swift in Sources */,
 				2ED54EF0279D3A84001AE07C /* APIModelForStart.swift in Sources */,
-				2E6DC70C27AE9CD900A049CC /* Float+Extension.swift in Sources */,
 				2EA963D72796EF7300DA7C2E /* CustomColor.swift in Sources */,
 				2E3305E627BB71C800A1AECD /* SocketManager.swift in Sources */,
 			);

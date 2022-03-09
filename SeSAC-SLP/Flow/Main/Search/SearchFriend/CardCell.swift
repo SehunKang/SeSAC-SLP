@@ -234,7 +234,7 @@ extension CardCell {
                 section.contentInsets = NSDirectionalEdgeInsets(top: 10, leading: 16, bottom: 10, trailing: 16)
 
             } else if sectionKind == .hobby {
-                let itemSize = NSCollectionLayoutSize(widthDimension: .estimated(50), heightDimension: .absolute(38))
+                let itemSize = NSCollectionLayoutSize(widthDimension: .estimated(50), heightDimension: .absolute(40))
                 let item = NSCollectionLayoutItem(layoutSize: itemSize)
                 let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1.0), heightDimension: itemSize.heightDimension)
                 let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
@@ -335,13 +335,14 @@ extension CardCell {
             content.textProperties.font = CustomFont.Title6_R12.font
             supplementaryView.contentConfiguration = content
             
+            
             let commentCount = self.data?.reviews.count ?? 0
             if (indexPath.section == SectionLayoutKind.review.rawValue) && (commentCount >= 2) {
                 supplementaryView.accessories = [.disclosureIndicator()]
             }
         }
     }
-
+    
     func configureDataSource() {
 
         let titleCellRegistration = createTitleCellRegistration()

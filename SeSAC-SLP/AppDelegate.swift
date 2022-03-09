@@ -36,7 +36,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 UserDefaultManager.signInData.fcMtoken = token
             }
         }
-        idtokenRefresh()
         
         var style = ToastStyle()
         style.backgroundColor = CustomColor.SLPWhite.color

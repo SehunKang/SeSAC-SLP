@@ -66,6 +66,7 @@ class AroundViewController: UIViewController {
         backgroundBind()
         collectionView.delegate = self
         refreshQueue()
+        
     }
     
     

@@ -119,6 +119,8 @@ class ShopViewController: TabmanViewController {
             make.height.equalTo(40)
         }
         saveButton.addTarget(self, action: #selector(saveButtonClicked), for: .touchUpInside)
+        foregroundImage = UserDefaultManager.userData!.sesac
+        backgroundImage = UserDefaultManager.userData!.background
     }
     
     @objc private func saveButtonClicked() {

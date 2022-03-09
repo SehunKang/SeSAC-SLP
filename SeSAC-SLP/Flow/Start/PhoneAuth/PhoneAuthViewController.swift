@@ -34,6 +34,7 @@ class PhoneAuthViewController: UIViewController {
         self.navigationController?.navigationBar.backIndicatorImage = image
         self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = image
         self.navigationController?.navigationBar.topItem?.backButtonTitle = ""
+        self.navigationController?.navigationBar.tintColor = CustomColor.SLPBlack.color
         
         guideLabel.numberOfLines = 0
         guideLabel.textAlignment = .center
