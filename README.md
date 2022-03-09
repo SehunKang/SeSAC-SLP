@@ -15,9 +15,21 @@
 애플리케이션은 전적으로 개인이 구현하지만 4인 구성의 팀을 구성하여 매일 3회 데일리 스크럼을 통해 사용 기술 및 진행상황 공유, 계획 수립, 회고를 진행하였습니다.
 
 ## 사용 기술 스택
-MVVM, RxSwift, RxCocoa, Moya, Realm, StoreKit, MapKit, FirebaseAuth, FirebaseCloudMessaging ,Core Location, UserNotification ,SkeletonView, Toast-Swift, SnapKit, TabMan, RangeSeekSlider, ModernCollectionView
+* MVVM, RxSwift, RxCocoa
+* Moya, Socket.IO
+* StoryBoard, SnapKit, SkeletonView, TabMan, RangeSeekSlider, Toast-Swift, ModernCollectionView
+* Realm
+* StoreKit, MapKit, Core Location, FirebaseAuth, FirebaseCloudMessaging , UserNotification
 
-## 상세 리뷰
+
+
+## 회고
+
+프로젝트 초반 스케줄이 엉키면서 중간부터 급한 마음에 아키텍쳐에 대해 고민하며 코드를 작성하지 못한 것 같아 아쉽다. 그래도 지금까지 진행한 프로젝트 중에 가장 규모가 큰 프로젝트였고 배운게 정말 많은 프로젝트였다.  
+기술적으로 가장 많이 배운 점은, 백엔드 서버와의 통신을 하며 생길 수 있는 다양한 변수들을 어떻게 사용자 경험을 고려하여 해결할수 있을까? 하는 점.  
+기술 외적으로 느낀바가 큰 점은, 한달이 넘는 기간을 평일주말 할것없이 매일 밥먹는 시간을 제외하고 모든 시간을 프로젝트를 진행하는데 썼던것 같은데, 시간을 굉장히 비효율적으로 무작정 썼다는 점. 과정 정리가 되면 이 부분에 대한 고민을 진지하게 해 볼 예정이다.
+
+## 상세 리뷰, 이슈와 
 
 ### 회원가입
 
@@ -75,9 +87,4 @@ StoreKit을 사용한 인앱 구매 화면이다. 앱스토어뿐 아니라 서�
 우측 상단의 ellipsis 버튼을 클릭했을 때 카카오톡의 새로운 채팅 버튼을 클릭할 때 처럼 만들고 싶었다. 마땅한 라이브러리나 레퍼런스가 없어 무식하게 접근했다. 버튼목록의 y값에 CGAffineTransform을 통해 -200을 줘서 화면 위로 보내놓고 ellipsis 버튼을 클릭하면 origin으로 복귀 시키는 식으로 구현했다.
 
 
-## 회고
-
-프로젝트 초반 스케줄이 엉키면서 급한 마음에 좀더 고민하며 코드를 작성하지 못한 것 같아 아쉽다. 그래도 지금까지 진행한 프로젝트 중에 가장 규모가 큰 프로젝트였고 배운게 정말 많은 프로젝트였다.  
-기술적으로 가장 많이 배운 점은, 백엔드 서버와의 통신을 하며 생길 수 있는 다양한 변수들을 어떻게 사용자 경험을 고려하여 해결할수 있을까? 하는 점.  
-기술 외적으로 느낀바가 큰 점은, 한달이 넘는 기간을 평일주말 할것없이 매일 밥먹는 시간을 제외하고 모든 시간을 프로젝트를 진행하는데 썼던것 같은데, 시간을 굉장히 비효율적으로 무작정 썼다는 점. 과정 정리가 되면 이 부분에 대한 고민을 진지하게 해 볼 예정이다.
 
